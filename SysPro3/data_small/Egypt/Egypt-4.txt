@@ -1,0 +1,6 @@
+2000 Zachary Stewart Egypt 66 SARS-1 YES 23-02-2002
+2001 Zachary Levine Egypt 66 H1N1 YES 23-12-2002
+2002 Zachary Qweqwe Egypt 11 SARS-1 NO
+2003 Zachary Turbo Egypt 11 H1N1 NO
+2004 Zachary Neoturbo Egypt 52 EVD YES 23-12-2015
+2005 Zachary Gigaturbo Egypt 41 SARS-COV-2 YES 09-06-2013

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>BloomFilter.h</itemPath>
+      <itemPath>ChildInfo.h</itemPath>
+      <itemPath>Citizen.hpp</itemPath>
+      <itemPath>Country.hpp</itemPath>
+      <itemPath>Date.h</itemPath>
+      <itemPath>Disease.hpp</itemPath>
+      <itemPath>File.h</itemPath>
+      <itemPath>HashFunctions.h</itemPath>
+      <itemPath>Session.h</itemPath>
+      <itemPath>SessionParent.h</itemPath>
+      <itemPath>SkipList.h</itemPath>
+      <itemPath>TravelRequest.hpp</itemPath>
+      <itemPath>TravelRequestList.h</itemPath>
+      <itemPath>datecmp.h</itemPath>
+      <itemPath>datevacc.h</itemPath>
+      <itemPath>dentro.h</itemPath>
+      <itemPath>lista.h</itemPath>
+      <itemPath>operations.h</itemPath>
+      <itemPath>operations_parent.h</itemPath>
+      <itemPath>readerwriter.h</itemPath>
+      <itemPath>readerwriter_all.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>BloomFilter.cpp</itemPath>
+      <itemPath>ChildInfo.cpp</itemPath>
+      <itemPath>File.cpp</itemPath>
+      <itemPath>HashFunctions.cpp</itemPath>
+      <itemPath>Session.cpp</itemPath>
+      <itemPath>SessionParent.cpp</itemPath>
+      <itemPath>SkipList.cpp</itemPath>
+      <itemPath>TravelRequestList.cpp</itemPath>
+      <itemPath>date.cpp</itemPath>
+      <itemPath>datecmp.cpp</itemPath>
+      <itemPath>datevacc.cpp</itemPath>
+      <itemPath>lista.cpp</itemPath>
+      <itemPath>main_travelmonitor.cpp</itemPath>
+      <itemPath>main_vaccinemonitor.cpp</itemPath>
+      <itemPath>operations.cpp</itemPath>
+      <itemPath>operations_parent.cpp</itemPath>
+      <itemPath>readerwriter.cpp</itemPath>
+      <itemPath>readerwriter_all.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+      </compileType>
+      <item path="BloomFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BloomFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ChildInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ChildInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Citizen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Country.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Date.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Disease.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="File.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HashFunctions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HashFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Session.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Session.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SessionParent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SessionParent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SkipList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SkipList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TravelRequest.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TravelRequestList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TravelRequestList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="date.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datecmp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datecmp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="datevacc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datevacc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dentro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lista.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="lista.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main_travelmonitor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main_vaccinemonitor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="operations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="operations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="operations_parent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="operations_parent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="readerwriter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="readerwriter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="readerwriter_all.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="readerwriter_all.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="BloomFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BloomFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ChildInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ChildInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Citizen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Country.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Date.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Disease.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="File.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HashFunctions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HashFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Session.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Session.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SessionParent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SessionParent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SkipList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SkipList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TravelRequest.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TravelRequestList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TravelRequestList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="date.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datecmp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datecmp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="datevacc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datevacc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dentro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lista.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="lista.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main_travelmonitor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main_vaccinemonitor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="operations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="operations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="operations_parent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="operations_parent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="readerwriter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="readerwriter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="readerwriter_all.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="readerwriter_all.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="valgrind" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+      </compileType>
+      <item path="BloomFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BloomFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ChildInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ChildInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Citizen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Country.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Date.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Disease.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="File.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HashFunctions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HashFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Session.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Session.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SessionParent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SessionParent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SkipList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SkipList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TravelRequest.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TravelRequestList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TravelRequestList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="date.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datecmp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datecmp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="datevacc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datevacc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dentro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lista.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="lista.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main_travelmonitor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main_vaccinemonitor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="operations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="operations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="operations_parent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="operations_parent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="readerwriter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="readerwriter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="readerwriter_all.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="readerwriter_all.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="1" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+      </compileType>
+      <item path="BloomFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BloomFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ChildInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ChildInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Citizen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Country.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Date.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Disease.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="File.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HashFunctions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HashFunctions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Session.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Session.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SessionParent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SessionParent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SkipList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SkipList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TravelRequest.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TravelRequestList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TravelRequestList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="date.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datecmp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datecmp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="datevacc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datevacc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dentro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lista.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="lista.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main_travelmonitor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main_vaccinemonitor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="operations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="operations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="operations_parent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="operations_parent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="readerwriter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="readerwriter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="readerwriter_all.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="readerwriter_all.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
